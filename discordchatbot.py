@@ -40,4 +40,4 @@ async def chatbot(ctx,*,message):
                 embed.set_footer(text = "Page {}".format(num))
                 await ctx.send(embed = embed)
 #check out my YouTube channel: https://www.youtube.com/krishnadaslessons
-bot.run('put token here')
+bot.run(process.env.token)
